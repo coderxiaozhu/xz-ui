@@ -1,7 +1,10 @@
 <template>
-  <div class="text-3xl text-red-900 underline">asdasd</div>
+  <ZButton type="primary">确定</ZButton>
+  <ZButton>取消</ZButton>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ZButton from './button/src/button'
+</script>
 
 <style scoped></style>

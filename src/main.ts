@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './index.scss'
+import ZButton from './button'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(ZButton).mount('#app')

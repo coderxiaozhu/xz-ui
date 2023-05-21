@@ -4,7 +4,7 @@
 
 ```vue
 <template>
-    <HelloWorld :msg="test"></HelloWorld>
+    <!-- <HelloWorld :msg="test"></HelloWorld> -->
     <Test />
 </template>
 ```
