@@ -14,6 +14,13 @@
     transition: background-color $z-animation-duration-slow $z-animation-eaze-in-out-smooth,
     border-color $z-animation-duration-slow $z-animation-eaze-in-out-smooth,
     color $z-animation-duration-slow $z-animation-eaze-in-out-smooth;
+    // 禁用状态
+    &[disabled] {
+      @apply cursor-not-allowed;
+    }
+    &.s-btn--block {
+      @apply block w-full;
+    }
 }
 
 @mixin button-variant($variant, $pseudo: false) {
